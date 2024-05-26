@@ -30,7 +30,7 @@ class Base():
     def get_screenshot(self):
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = 'screenshot' + now_date + '.png'
-        self.driver.save_screenshot('C:\\Users\\katen\\PycharmProjects\\market\\screen\\' + name_screenshot)
+        self.driver.save_screenshot('C:\\Users\\katen\\PycharmProjects\\project_market\\screen\\' + name_screenshot)
 
 
     """Method double click"""
