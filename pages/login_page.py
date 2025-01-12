@@ -76,7 +76,7 @@ class Login_page(Base):
        self.click_profile()
        self.input_email("ekt.hi@yandex.ru")
        self.click_button_id()
-       self.input_password("112142Mama")
+       self.input_password("112142")
        self.click_continue_button()
        self.assert_word(self.get_main_word_market(), 'Яндекс')
 
